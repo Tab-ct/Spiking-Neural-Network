@@ -8,7 +8,7 @@
 
 import numpy as np
 import imageio
-from parameters import param as par
+from snn.parameters import param as par
 
 def rf(inp):
 	sca1 =  0.625

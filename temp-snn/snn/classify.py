@@ -1,10 +1,10 @@
 import numpy as np
-from neuron import neuron
+from snn.neuron import neuron
 import random
-from recep_field import rf
-from spike_train import encode
-from parameters import param as par
-from weight_initialization import learned_weights_x, learned_weights_o, learned_weights_synapse
+from snn.recep_field import rf
+from snn.spike_train import encode
+from snn.parameters import param as par
+from snn.weight_initialization import learned_weights_x, learned_weights_o, learned_weights_synapse
 import imageio
 
 #Parameters

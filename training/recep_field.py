@@ -48,5 +48,5 @@ if __name__ == '__main__':
 	for i in pot:
 		max_a.append(max(i))
 		min_a.append(min(i))
-	print "max", max(max_a)
-	print "min", min(min_a)
+	print ("max", max(max_a))
+	print ("min", min(min_a))

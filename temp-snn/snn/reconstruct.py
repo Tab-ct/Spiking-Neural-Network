@@ -9,8 +9,8 @@
 import numpy as np
 from numpy import interp
 import imageio
-from recep_field import rf
-from parameters import param as par
+from snn.recep_field import rf
+from snn.parameters import param as par
 
 
 def reconst_weights(weights, num):

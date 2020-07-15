@@ -32,7 +32,7 @@ def encode(pot):
 			
 			# print freq
 			if freq<=0:
-				print error
+				print (error)
 				
 			freq1 = math.ceil(600/freq)
 
@@ -60,7 +60,7 @@ if __name__  == '__main__':
 	# print max(m), min(n)
 	train = encode(pot)
 	f = open('look_ups/train6.txt', 'w')
-	print np.shape(train)
+	print (np.shape(train))
 
 	for i in range(201):
 		for j in range(784):

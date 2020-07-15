@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
 	# img = cv2.imread("mnist1/" + str(1) + ".png", 0)
 	img = np.array(Image.open("mnist1/" + str(1) + ".png", 0))
-	print img
+	print (img)
 	# pot = rf(img)
 	# train = np.array(encode(pot))
 	# print threshold(train)

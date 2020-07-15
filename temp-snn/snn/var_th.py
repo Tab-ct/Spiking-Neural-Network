@@ -6,15 +6,15 @@
 
 
 import numpy as np
-from neuron import neuron
+from snn.neuron import neuron
 import random
 from matplotlib import pyplot as plt
-from recep_field import rf
-from spike_train import encode
-from rl import rl
-from rl import update
-from reconstruct import reconst_weights
-from parameters import param as par
+from snn.recep_field import rf
+from snn.spike_train import encode
+from snn.rl import rl
+from snn.rl import update
+from snn.reconstruct import reconst_weights
+from snn.parameters import param as par
 import os
 
 

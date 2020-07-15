@@ -10,8 +10,8 @@ from numpy import interp
 from matplotlib import pyplot as plt
 import imageio
 import math
-from parameters import param as par
-from recep_field import rf
+from snn.parameters import param as par
+from snn.recep_field import rf
 
 def encode2(pixels):
 

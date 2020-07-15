@@ -9,16 +9,16 @@
 
 
 import numpy as np
-from neuron import neuron
+from snn.neuron import neuron
 import random
 from matplotlib import pyplot as plt
-from recep_field import rf
+from snn.recep_field import rf
 import imageio
-from spike_train import encode
-from rl import rl, update
-from reconstruct import reconst_weights
-from parameters import param as par
-from var_th import threshold
+from snn.spike_train import encode
+from snn.rl import rl, update
+from snn.reconstruct import reconst_weights
+from snn.parameters import param as par
+from snn.var_th import threshold
 import os
 import time as timing 
 
